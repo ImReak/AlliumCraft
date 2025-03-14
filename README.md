@@ -1,7 +1,7 @@
 # AlliumCraft - 绒球葱工艺
 
 > 那一晚，绒球葱和红石都喝醉了...\
-> ![ICON](./tiny_icon.png)
+> ![ICON](OtherResources/tiny_icon.png)
 
 ## 简介
 
