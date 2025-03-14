@@ -2,7 +2,6 @@ package reak.alliumcraft.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import reak.alliumcraft.blocks.ModBlocks;
@@ -33,9 +32,17 @@ public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ALLIUM_PETALS);
 
         getOrCreateTagBuilder(BlockTags.SWORD_EFFICIENT)
-                .add(ModBlocks.ALLIUM_PETALS);
+                .add(ModBlocks.ALLIUM_PETALS)
+                .add(ModBlocks.MUILLA);
 
         getOrCreateTagBuilder(BlockTags.FLOWERS)
                 .add(ModBlocks.ALLIUM_PETALS);
+
+        getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)
+                .add(ModBlocks.MUILLA);
+
+        getOrCreateTagBuilder(BlockTags.ENDERMAN_HOLDABLE)
+                .add(ModBlocks.MUILLA);
+
     }
 }

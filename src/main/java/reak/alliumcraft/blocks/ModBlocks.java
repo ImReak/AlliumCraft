@@ -12,7 +12,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import reak.alliumcraft.AlliumCraft;
 
-import static net.minecraft.block.Blocks.createLightLevelFromLitBlockState;
+import static net.minecraft.block.Blocks.*;
 
 public class ModBlocks {
 
@@ -43,14 +43,10 @@ public class ModBlocks {
     public static final Block MUILLA =register("muilla",new FlowerBlock(
             StatusEffects.FIRE_RESISTANCE,
             4.0F,
-            AbstractBlock.Settings.create()
-                    .mapColor(MapColor.DARK_GREEN)
-                    .noCollision()
-                    .breakInstantly()
-                    .sounds(BlockSoundGroup.GRASS)
-                    .offset(AbstractBlock.OffsetType.XZ)
-                    .pistonBehavior(PistonBehavior.DESTROY)
-    ));
+            AbstractBlock.Settings.copy(ALLIUM)));
+    public static final Block POTTED_MUILLA = Registry.register(Registries.BLOCK,Identifier.of(AlliumCraft.MOD_ID,"potted_muilla"),
+            new FlowerPotBlock(MUILLA,AbstractBlock.Settings.copy(POTTED_ALLIUM)));
+
 
     public static void registerBlockItems(String id,Block block){
         Item item = Registry.register(Registries.ITEM,Identifier.of(AlliumCraft.MOD_ID,id),new BlockItem(block,new Item.Settings()));

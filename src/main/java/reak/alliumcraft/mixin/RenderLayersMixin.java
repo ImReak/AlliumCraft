@@ -21,6 +21,7 @@ public class RenderLayersMixin {
     private static void onBlockInit(CallbackInfo ci) {
         BLOCKS.put(ModBlocks.ALLIUM_PETALS, RenderLayer.getCutout());
         BLOCKS.put(ModBlocks.MUILLA, RenderLayer.getCutout());
+        BLOCKS.put(ModBlocks.POTTED_MUILLA,RenderLayer.getCutout());
 
     }
 }

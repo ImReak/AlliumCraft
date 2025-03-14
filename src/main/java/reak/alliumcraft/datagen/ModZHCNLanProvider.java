@@ -21,6 +21,8 @@ public class ModZHCNLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.DEEPSLATE_ALLIUM_ORE, "深层绒球葱矿石");
         translationBuilder.add(ModBlocks.ALLIUM_ORE, "绒球葱矿石");
         translationBuilder.add(ModBlocks.ALLIUM_PETALS, "绒球葱花簇");
+        translationBuilder.add(ModBlocks.ALLIUM_BLOCK,"绒球葱块");
+        translationBuilder.add(ModBlocks.MUILLA,"葱球绒");
 
         translationBuilder.add(ModItemGroups.ALLIUMCRAFT_GROUP,"绒球葱工艺");
     }

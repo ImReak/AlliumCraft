@@ -21,6 +21,8 @@ public class ModENUSLanProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.DEEPSLATE_ALLIUM_ORE, "Deepslate Allium Ore");
         translationBuilder.add(ModBlocks.ALLIUM_ORE, "Allium Ore");
         translationBuilder.add(ModBlocks.ALLIUM_PETALS, "Allium Petals");
+        translationBuilder.add(ModBlocks.ALLIUM_BLOCK,"Allium Block");
+        translationBuilder.add(ModBlocks.MUILLA,"Muilla");
 
         translationBuilder.add(ModItemGroups.ALLIUMCRAFT_GROUP,"AlliumCraft");
     }

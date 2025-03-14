@@ -27,6 +27,7 @@ public class ModItemGroups {
                             entries.add(ModBlocks.ALLIUM_ORE);
                             entries.add(ModBlocks.DEEPSLATE_ALLIUM_ORE);
                             entries.add(ModBlocks.ALLIUM_PETALS);
+                            entries.add(ModItems.ALLIUM_DUST);
                         }).build());
         AlliumCraft.LOGGER.info("Registering Item Groups");
     }}
