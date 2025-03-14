@@ -1,0 +1,7 @@
+// 1.21.1	2025-03-14T21:50:12.8595466	AlliumCraft/Tags for minecraft:block
+aff51b7fe7f40608a3ea78ac484a637299818f99 data\minecraft\tags\block\inside_step_sound_blocks.json
+9be20b166cfab5b4212dd425d9364f7ae15a2e68 data\minecraft\tags\block\mineable\pickaxe.json
+aff51b7fe7f40608a3ea78ac484a637299818f99 data\minecraft\tags\block\mineable\hoe.json
+9be20b166cfab5b4212dd425d9364f7ae15a2e68 data\minecraft\tags\block\needs_iron_tool.json
+aff51b7fe7f40608a3ea78ac484a637299818f99 data\minecraft\tags\block\sword_efficient.json
+aff51b7fe7f40608a3ea78ac484a637299818f99 data\minecraft\tags\block\flowers.json
