@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "alliumcraft:block/deepslate_allium_ore"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/flowerbed_1",
+  "textures": {
+    "flowerbed": "alliumcraft:block/allium_petals",
+    "stem": "alliumcraft:block/allium_petals_stem"
+  }
+}

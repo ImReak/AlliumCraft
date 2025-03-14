@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "alliumcraft",
+	"version": "${version}",
+	"name": "AlliumCraft",
+	"description": "绒球葱工艺，加入了绒球葱粉、绒球葱比较器等作为原版红石系统的补充，它有着和原版红石一致的交互逻辑，但无法直接与红石粉相连接，从而有效避免串信号的问题，祝您游戏愉快！",
+	"authors": [
+		"Reak(模组作者)",
+		"Sheep-realms(材质文件作者)"
+	],
+	"contact": {
+		"homepage": "https://github.com/ImReak",
+		"sources": "https://github.com/ImReak/AlliumCraft"
+	},
+	"license": "CC BY-NC-SA 4.0",
+	"icon": "assets/alliumcraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"reak.alliumcraft.AlliumCraft"
+		],
+		"fabric-datagen": [
+			"reak.alliumcraft.AlliumCraftDataGenerator"
+		]
+	},
+	"mixins": [
+		"alliumcraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

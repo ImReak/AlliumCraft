@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "reak.alliumcraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AlliumCraftMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "RenderLayersMixin"
+  ]
+}

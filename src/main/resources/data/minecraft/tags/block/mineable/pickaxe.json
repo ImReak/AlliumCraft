@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "alliumcraft:allium_block",
+    "alliumcraft:deepslate_allium_ore",
+    "alliumcraft:allium_ore"
+  ]
+}
