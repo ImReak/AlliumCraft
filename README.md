@@ -30,5 +30,5 @@
 - [ ] FlowersNursery花圃：生成于除沙漠雪地等群系外的一切位置，其中能找到包含了所有种类的花的木桶
 
 ## 未来计划
-- [ ] 将支持neoForge
+- [ ] 将支持NeoForge
 - [ ] 将支持更多Minecraft版本
