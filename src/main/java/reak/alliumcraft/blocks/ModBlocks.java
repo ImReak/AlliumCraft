@@ -17,24 +17,29 @@ import static net.minecraft.block.Blocks.*;
 public class ModBlocks {
 
     public static final Block ALLIUM_BLOCK = register("allium_block",new Block(
-            AbstractBlock.Settings.create()
+            AbstractBlock.Settings
+                    .create()
                     .strength(5.0F,6.0F)
                     .requiresTool()));
     public static final Block ALLIUM_ORE = register("allium_ore",new AlliumOreBlock(
-            AbstractBlock.Settings.create()
-                    .strength(3.0F,3.0F).luminance(createLightLevelFromLitBlockState(9))
+            AbstractBlock.Settings
+                    .create()
+                    .strength(3.0F,3.0F)
+                    .luminance(createLightLevelFromLitBlockState(9))
                     .instrument(NoteBlockInstrument.BASEDRUM)
                     .mapColor(MapColor.STONE_GRAY)
                     .requiresTool()));
     public static final Block DEEPSLATE_ALLIUM_ORE = register("deepslate_allium_ore",new AlliumOreBlock(
-            AbstractBlock.Settings.create()
+            AbstractBlock.Settings
+                    .create()
                     .strength(4.5F,3.0F)
                     .luminance(createLightLevelFromLitBlockState(9))
                     .sounds(BlockSoundGroup.DEEPSLATE)
                     .mapColor(MapColor.DEEPSLATE_GRAY)
                     .requiresTool()));
     public static final Block ALLIUM_PETALS = register("allium_petals",new FlowerbedBlock(
-            AbstractBlock.Settings.create()
+            AbstractBlock.Settings
+                    .create()
                     .mapColor(MapColor.DARK_GREEN)
                     .noCollision()
                     .sounds(BlockSoundGroup.PINK_PETALS)
